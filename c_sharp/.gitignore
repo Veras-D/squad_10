@@ -1,0 +1,40 @@
+# Dependências do Node.js (frontend React)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de build React
+build/
+dist/
+*.map
+
+# Configurações temporárias ou de debug
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de build .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.nuget/
+*.cache
+*.userprefs
+
+# Configurações do projeto .NET
+appsettings*.json
+

@@ -1,0 +1,72 @@
+# Dependências do Node.js (se usadas)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de build ou temporários
+dist/
+build/
+.temp/
+.cache/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependências do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de build Angular
+dist/
+out-tsc/
+.angular/
+.angular/cache/
+
+# Configurações temporárias ou de debug
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de build Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+
+# Ferramentas de build
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Dependências de Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Configurações específicas do Java
+*.settings/
+*.project
+*.classpath
+
