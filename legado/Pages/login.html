@@ -15,114 +15,14 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" 
           rel="stylesheet">
 
-    <style>
-        
-        body {
-            background-color: #fdf7ff; 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; 
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        
-        .login-container {
-            background-color: white;
-            width: 360px;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
-            text-align: center;
-        }
-
-        
-        .login-logo {
-            margin-bottom: 20px;
-        }
-
-        
-        .form-control {
-            border: 2px solid #3535358f;
-            border-radius: 10px;
-        }
-
-        .form-control:focus {
-            box-shadow: none; 
-            border-color: #B200FF;
-        }
-
-        
-        .btn-login {
-            width: 100%;
-            background-color:#4F378A;
-            color: white;
-            border: none;
-            border-radius: 10px;
-            padding: 10px;
-            font-size: 16px;
-            margin-top: 15px;
-            cursor: pointer;
-        }
-
-        .btn-login:hover {
-            background-color: #4f378a;
-        }
-
-       
-        .forgot-password {
-            font-size: 12px;
-            color: #64009F;
-            text-decoration: none;
-        }
-        
-        .sign-up {
-            font-size: 16px;
-            color: #64009F;
-            text-decoration: none;
-        }
-
-        
-
-        .forgot-password:hover, .sign-up:hover {
-            text-decoration: underline;
-        }
-
-    
-        .form-check-input:checked {
-            background-color: #65558F;
-            border-color: #65558F;
-        }
-
-        .form-check-label {
-            font-size: 14px;
-        }
-
-    
-        .sign-up-container {
-            margin-top: 20px;
-            font-size: 16px;
-            color: #79747E;
-        }
-
-        .save-login {
-            color: #6a00b3;
-        }
-
-        .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
-            border-top-right-radius: 8px;
-            border-bottom-right-radius: 8px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="../style/style.css">
 
     <title>Login</title>
 </head>
 <body>
     <div class="login-container">
     
-        <img src="/style/Logo.png" alt="Logo" class="login-logo img-fluid mb-5">
+        <img src="/style/logo.png" alt="Logo" class="login-logo img-fluid mb-5">
         <div class="mb-4"></div>
 
         
@@ -161,16 +61,6 @@
         </form>
     </div>
 
-    <script>
-        const togglePassword = document.getElementById('togglePassword');
-        const passwordInput = document.getElementById('password');
-
-        togglePassword.addEventListener('click', function () {
-            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-            passwordInput.setAttribute('type', type);
-            this.querySelector('i').classList.toggle('bi-eye-fill');
-            this.querySelector('i').classList.toggle('bi-eye-slash-fill');
-        });
-    </script>
+    <script src="../src/script.js"></script>
 </body>
 </html>
