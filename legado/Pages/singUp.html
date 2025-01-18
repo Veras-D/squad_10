@@ -16,7 +16,7 @@
             crossorigin="anonymous"
             />
             <!--css-->
-            <link rel="stylesheet" href="pages_styles/singup.css">
+            <link rel="stylesheet" href="../style/singup.css">
             <!--icons bootstrap-->
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
@@ -25,7 +25,7 @@
         <div class="container d-flex justify-content-center border rounded-5 singUp">
             <div>
                 <figure>
-                    <img src="../assets/logo_login_singup.svg" alt="logo" class="img-fluid">
+                    <img src="img/logo_login_singup.svg" alt="logo" class="img-fluid">
                 </figure>
             </div>
 
@@ -41,8 +41,9 @@
 
                 <div class="mb-4 containerInput">
                     <label for="passwordInput" class="form-label fw-bold">Password</i></label>
+
                     <div class="d-flex input">
-                        <input type="password" class="form-control input-eye" id="passwordInput" placeholder="Enter your Password">
+                        <input type="password" class="form-control" id="passwordInput" placeholder="Enter your Password">
                         <button class="btn btn-eye" type="button" id="togglePassword">
                             <i class="bi bi-eye-fill"></i>
                         </button>
@@ -68,7 +69,24 @@
         </div>
     
         <!--script eye password-->
-        <script src="../src/script.js"></script>
+        <script>
+            function togglePasswordVisibility(inputId, buttonId) {
+                const passwordInput = document.getElementById(inputId);
+                const toggleButton = document.getElementById(buttonId);
+
+                toggleButton.addEventListener('click', function () {
+                    const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+                    passwordInput.setAttribute('type', type);
+
+                    this.querySelector('i').classList.toggle('bi-eye-fill');
+                    this.querySelector('i').classList.toggle('bi-eye-slash-fill');
+                });
+            };
+
+            togglePasswordVisibility('passwordInput', 'togglePassword');
+            togglePasswordVisibility('confirmPasswordInput', 'toggleConfirmPassword');
+        </script>
+
 
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

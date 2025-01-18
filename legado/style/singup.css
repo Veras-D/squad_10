@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
   background-color: #FEF7FF;
-  font-family: Arial, sans-serif;
+}
+
+body, input, button {
+  font-family: "Inter", serif;
 }
 
 .singUp {
@@ -20,9 +25,10 @@ figure{
 }
 
 form .containerInput input:focus {
-  border: 2px solid #B200FF;
-  box-shadow: 0 0 5px rgba(178, 0, 255, 0.5);
-}
+  outline: none;
+  border: 1px solid #B200FF;
+  box-shadow: 0 0 0 #fff;
+} 
 
 .containerInput {
   max-width: 100%;
@@ -42,7 +48,7 @@ form .containerInput input:focus {
 }
 
 .btn-SingUp:hover {
-  background-color: #261552;
+  background-color: #A17BFF;
   color: white;
 }
 
@@ -50,11 +56,6 @@ form .containerInput input:focus {
   display: flex;
   align-items: center;
   position: relative;
-}
-
-.btn-eye:focus{
-  outline: none;
-  border: 1px solid #B200FF
 }
 
 .btn-eye {
@@ -67,3 +68,9 @@ form .containerInput input:focus {
 footer p a {
   color: #64009F;
 }
+
+.containerInput input{
+  border-radius: 8px;
+  border: 1px solid #79747E;
+}
+
