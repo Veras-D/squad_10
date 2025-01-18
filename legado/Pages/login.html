@@ -15,7 +15,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" 
           rel="stylesheet">
 
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/login.css">
 
     <title>Login</title>
 </head>
@@ -23,7 +23,7 @@
     <div class="login-container">
     
 
-        <img src="/style/logo.png" alt="Logo" class="login-logo img-fluid mb-5">
+        <img src="../assets/logo_login_singup.svg" alt="Logo" class="login-logo img-fluid mb-5">
       
         <div class="mb-4"></div>
 
@@ -36,9 +36,9 @@
 
             <div class="mb-3 text-start">
                 <label for="password" class="form-label fw-bold">Password</label>
-                <div class="input-group">
+                <div class=" d-flex input">
                     <input type="password" class="form-control" id="password" placeholder="Enter your Password">
-                    <button class="btn btn-outline-light border-start-0" type="button" id="togglePassword">
+                    <button class="btn btn-outline-light border-start-0 btn-eye" type="button" id="togglePassword">
                         <i class="bi bi-eye-fill"></i>
                     </button>
                 </div>
@@ -63,6 +63,6 @@
         </form>
     </div>
 
-    <script src="../src/script.js"></script>
+    <script src="../src/login.js" defer></script>
 </body>
 </html>

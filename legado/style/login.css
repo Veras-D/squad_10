@@ -31,9 +31,8 @@ body {
 
 .form-control:focus {
     box-shadow: none; 
-    border-color: #B200FF;
+    border: 1px solid #B200FF;
 }
-
 
 .btn-login {
     width: 100%;
@@ -48,9 +47,8 @@ body {
 }
 
 .btn-login:hover {
-    background-color: #4f378a;
+    background-color: #A17BFF;
 }
-
 
 .forgot-password {
     font-size: 12px;
@@ -91,7 +89,28 @@ body {
     color: #6a00b3;
 }
 
+.input {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.btn-eye {
+    position: absolute;
+    right: 3px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.btn-eye i {
+    color: black;
+}
 .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+
+.text-start input{
+    border-radius: 8px;
+    border: 1px solid #79747E;
 }
