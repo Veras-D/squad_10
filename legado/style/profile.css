@@ -1,0 +1,36 @@
+body {
+    background-color: #f9f1fc;
+    font-family: Arial, sans-serif;
+}
+.card {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.edit-btn {
+    background-color: #6f42c1;
+    color: white;
+    border-radius: 50px;
+}
+.edit-btn:hover {
+    background-color: #5a349c;
+}
+.div-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-btn {
+    background-color: #6f42c1;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 24px;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: rgba(0, 0, 0, 0);
+}
+.add-btn:hover {
+    background-color: #5a349c;
+}
