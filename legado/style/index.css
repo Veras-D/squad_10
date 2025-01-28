@@ -104,8 +104,8 @@ body {
 .img-logo01 {
     top: 15%; 
     left: 50%; 
-    width: 12.8%; 
-    height: 18%
+    /* width: 12.8%; 
+    height: 18%; */
 }
 
 .btn-signupDetail {
