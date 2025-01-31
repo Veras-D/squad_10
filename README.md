@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./assets/logo_01.png" alt="Globe Icon" width="30" height="30">
+    <img src="./assets/favicon.svg" alt="Globe Icon" width="30" height="30">
 </p>
 
 # Projeto Social - Job Board para a Comunidade LGBTQIA+
