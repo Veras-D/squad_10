@@ -8,6 +8,12 @@
 - 
 
 ### 🐛 Corrigido
+-
+
+### 🗑️ Removido
+- 
+
+### ⚠️ Segurança
 - 
 
 ---
@@ -21,6 +27,12 @@
 
 ### 🐛 Corrigido
 -
+
+### 🗑️ Removido
+- 
+
+### ⚠️ Segurança
+- 
 
 -->
 
