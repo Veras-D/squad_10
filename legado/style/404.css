@@ -1,0 +1,33 @@
+body {
+    background-color: #f3e5f5;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 900px;
+    margin-top: 50px;
+}
+.error-container {
+    text-align: center;
+    padding: 100px 20px;
+}
+.error-title {
+    font-size: 100px;
+    font-weight: bold;
+    color: #7b1fa2;
+}
+.error-text {
+    font-size: 24px;
+    color: #4a148c;
+}
+.btn-home {
+    background-color: #7b1fa2;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn-home:hover {
+    background-color: #4a148c;
+}
