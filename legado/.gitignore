@@ -1,4 +1,4 @@
-# Dependências do Node.js (se usadas)
+# Dependências do Node.js
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -9,6 +9,7 @@ dist/
 build/
 .temp/
 .cache/
+.env
 
 # Arquivos do sistema
 .DS_Store
@@ -19,10 +20,3 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
-
-# Dependências do Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
