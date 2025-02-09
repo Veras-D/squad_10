@@ -34,3 +34,19 @@ body {
 .add-btn:hover {
     background-color: #5a349c;
 }
+
+.text-title {
+    color: #444444;
+}
+
+.text-link {
+    color: #64009F;
+}
+
+.custom-badge {
+    background-color: #F4E0FF;
+    color: #A17BFF;
+    padding: 8px;
+    border-radius: 12px;
+    font-weight: bold;
+}
