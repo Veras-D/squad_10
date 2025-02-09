@@ -18,9 +18,14 @@
     <body>
         <div class="container py-5">
             <div class="container d-flex justify-content-between">
-            <h1 class="text-left mb-4 fw-bold text-title">Profile</h1>
+                <h1 class="text-left mb-4 fw-bold text-title">Profile</h1>
                 <div class="dropdown">
-                    <button class="btn btn-lg border-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                    <button
+                        class="btn btn-lg border-0"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="true"
+                    >
                         ⋮
                     </button>
                     <ul class="dropdown-menu">
@@ -108,8 +113,10 @@
 
                 <!-- Skills -->
                 <div class="col-lg-6">
-                    <div class="card p-3" style="height: 40%;">
-                        <h5 class="text-center text-title fs-4 fw-bold mb-4">Skills</h5>
+                    <div class="card p-3" style="height: 40%">
+                        <h5 class="text-center text-title fs-4 fw-bold mb-4">
+                            Skills
+                        </h5>
                         <div class="d-flex flex-wrap gap-2 mx-auto">
                             <span class="badge custom-badge">Skill 1</span>
                             <span class="badge custom-badge">Skill 1</span>
@@ -129,50 +136,64 @@
                             <span class="badge custom-badge">Skill 1</span>
                             <span class="badge custom-badge">Skill 1</span>
                         </div>
-                        <button class="btn edit-btn mt-3 mt-auto mb-2">Edit</button>
+                        <button class="btn edit-btn mt-3 mt-auto mb-2">
+                            Edit
+                        </button>
                     </div>
 
                     <div class="row g-3 mt-2">
                         <!-- Languages and Social Media -->
                         <div class="col-lg-6">
-                            <div class="card p-3" style="height: 310px;">
-                                <h5 class="text-center text-title fs-4 fw-bold mb-4">Languages</h5>
+                            <div class="card p-3" style="height: 310px">
+                                <h5
+                                    class="text-center text-title fs-4 fw-bold mb-4"
+                                >
+                                    Languages
+                                </h5>
                                 <ul class="list-unstyled ms-4">
                                     <li>Language 1</li>
-                                    <hr class="me-5 my-2">
+                                    <hr class="me-5 my-2" />
                                     <li>Language 2</li>
-                                    <hr class="me-5 my-2">
+                                    <hr class="me-5 my-2" />
                                     <li>Language 3</li>
-                                    <hr class="me-5 my-2">
+                                    <hr class="me-5 my-2" />
                                 </ul>
-                                <button class="btn edit-btn mt-auto mb-1">Edit</button>
+                                <button class="btn edit-btn mt-auto mb-1">
+                                    Edit
+                                </button>
                             </div>
                         </div>
 
                         <div class="col-lg-6">
-                            <div class="card p-3" style="height: 310px;">
-                                <h5 class="text-center text-title fs-4 fw-bold mb-4">Social Media</h5>
+                            <div class="card p-3" style="height: 310px">
+                                <h5
+                                    class="text-center text-title fs-4 fw-bold mb-4"
+                                >
+                                    Social Media
+                                </h5>
                                 <ul class="list-unstyled ms-4">
                                     <li>
                                         <a href="#" class="text-link"
                                             >Social Media 1</a
                                         >
-                                        <hr class="me-5 my-2">
+                                        <hr class="me-5 my-2" />
                                     </li>
                                     <li>
                                         <a href="#" class="text-link"
                                             >Social Media 2</a
                                         >
-                                        <hr class="me-5 my-2">
+                                        <hr class="me-5 my-2" />
                                     </li>
                                     <li>
                                         <a href="#" class="text-link"
                                             >Social Media 3</a
                                         >
-                                        <hr class="me-5 my-2 mb-0">
+                                        <hr class="me-5 my-2 mb-0" />
                                     </li>
                                 </ul>
-                                <button class="btn edit-btn mt-auto mb-1">Edit</button>
+                                <button class="btn edit-btn mt-auto mb-1">
+                                    Edit
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -181,12 +202,26 @@
                 <!-- Business and Teaching -->
                 <div class="col-lg-6">
                     <div class="card p-3">
-                        <h5>Business Name</h5>
-                        <p>
-                            <strong>Title Job:</strong> mm/dd/yyyy - mm/dd/yyyy
-                        </p>
-                        <p>Description goes here...</p>
-                        <button class="btn edit-btn">Edit</button>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="text-start fs-5 fw-bold mt-3">
+                                    Business Name
+                                </h5>
+                                <p>
+                                    <strong>Title Job</strong>
+                                </p>
+                            </div>
+                            <div class="col-md-6 text-secondary mt-4">
+                                <p class="text-end mb-0 me-5">mm/dd/yyyy - mm/dd/yyyy</p>
+                                <p class="text-end me-5" >
+                                    <a class="text-secondary" href="#"
+                                    >Business Link <img src="../../assets/link_icon.png" alt=""></a
+                                >
+                                </p>
+                            </div>
+                        </div>
+                        <p class="mt-4 ms-4">Description goes here...</p>
+                        <button class="btn edit-btn mb-2">Edit</button>
                     </div>
                     <div class="container div-btn mt-4">
                         <button class="add-btn">+</button>
@@ -195,13 +230,26 @@
 
                 <div class="col-lg-6">
                     <div class="card p-3">
-                        <h5>Teaching Institute</h5>
-                        <p>
-                            <strong>Course Name:</strong> mm/dd/yyyy -
-                            mm/dd/yyyy
-                        </p>
-                        <p>Description goes here...</p>
-                        <button class="btn edit-btn">Edit</button>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="text-start fs-5 fw-bold mt-3">
+                                    Teaching Institute
+                                </h5>
+                                <p>
+                                    <strong>Course Name</strong>
+                                </p>
+                            </div>
+                            <div class="col-md-6 text-secondary mt-4">
+                                <p class="text-end mb-0 me-5">mm/dd/yyyy - mm/dd/yyyy</p>
+                                <p class="text-end me-5" >
+                                    <a class="text-secondary" href="#"
+                                    >Certificate Link <img src="../../assets/link_icon.png" alt=""></a
+                                >
+                                </p>
+                            </div>
+                        </div>
+                        <p class="mt-4 ms-4">Description goes here...</p>
+                        <button class="btn edit-btn mb-2">Edit</button>
                     </div>
                     <div class="container div-btn mt-4">
                         <button class="add-btn">+</button>
