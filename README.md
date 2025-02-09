@@ -122,10 +122,10 @@ Desenvolvemos um site funcional e responsivo com pelo menos 4 páginas, utilizan
 Modelamos o banco de dados utilizando o BRModelo, criando os modelos conceitual e lógico. O script SQL das tabelas foi gerado e está disponível no repositório.
 
 #### Modelo Conceitual
-![](https://cdn.discordapp.com/attachments/1328036944889905162/1333246761657176295/Conceitual_Squard10.png?ex=6798db0e&is=6797898e&hm=7fbf3fd7b48fb2a7f32c2c6128409da22701627bc078db600ea3bdd34762f861&)
+![image](https://github.com/user-attachments/assets/e70973bd-342a-4884-94d6-eab525318ffb)
 
 #### Modelo Logico
-![](https://cdn.discordapp.com/attachments/1328036944889905162/1333246762072146021/Logico_Squard10.png?ex=6798db0e&is=6797898e&hm=3b85aa76c4514acb17a16a257b430bc6de2e8df6972ad8a7877a05f31ad798e8&)
+![image](https://github.com/user-attachments/assets/6cc04b1d-3ce8-4984-92c8-5691b32e7fa5)
 
 #### Modelo Físico
 Pode ser encontrado em `Database/database.sql`
