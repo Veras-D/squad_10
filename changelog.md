@@ -20,6 +20,11 @@
 
 -->
 ---
+## [1.1.1] - 2025-02-09
+### 🛠️ Alterado
+- Finalizado layout da pagina profile
+
+---
 
 ## [1.1.0] - 2025-02-04
 ### 🚀 Adicionado
