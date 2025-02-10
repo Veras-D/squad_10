@@ -13,7 +13,7 @@
 - **Fabio Duarte**
 - **Fabiana Cristina**
 - **Joao Vitor**
-- **Carlos Roberto Oliveira da Silva Junior**
+- **Carlos Roberto**
 
 ## Desafio Escolhido
 **Tema:** LGBTQIA+  
