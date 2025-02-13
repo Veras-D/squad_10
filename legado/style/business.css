@@ -6,7 +6,6 @@
 
 body {
     background-color: #FEF7FF;
-    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -24,68 +23,21 @@ body {
     color: #6a00b3 !important;
 }
 
-/* Main Content */
-.main-logo {
-    max-width: 189px;
-    margin-top: 4rem;
-}
-
-.connecting-text img {
-    max-width: 600px;
-    width: 100%;
-    margin: 2rem auto;
-}
-
-.lead-text {
-    color: #444;
-    font-size: 1.25rem;
-    max-width: 500px;
-    margin: 0 auto 2rem;
-}
 
 .btn-purple-style {
     background-color: var(--primary-color);
     color: white;
-    padding: 12px 30px;
+    border: none;
+    font-size: 15px;
     border-radius: 12px;
     font-weight: bold;
     transition: all 0.3s;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .btn-purple-style:hover {
     background-color: var(--secondary-color);
     transform: translateY(-2px);
-}
-
-.btn-join {
-    margin: 2rem 0;
-    padding: 15px 45px !important;
-    font-size: 1.1rem;
-}
-
-/* Background Elements */
-.background-elements {
-    position: relative;
-}
-
-.circles {
-    position: absolute;
-    bottom: -50px;
-    left: 0;
-    max-width: 270px;
-    width: 20%;
-    z-index: -1;
-}
-
-.pink-bg {
-    position: absolute;
-    top: 50%;
-    right: -10%;
-    transform: translateY(-50%);
-    max-width: 1410px;
-    width: 80%;
-    z-index: -1;
-    opacity: 0.8;
 }
 
 /* Responsive Adjustments */
@@ -118,12 +70,5 @@ body {
         display: block;
         margin: 10px auto;
     }
-    
-    .circles {
-        display: none;
-    }
-    
-    .pink-bg {
-        right: -30%;
-    }
+
 }
