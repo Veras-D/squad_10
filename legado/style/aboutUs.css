@@ -40,10 +40,12 @@ section + footer {
     font-weight: bold;
     color: #4a148c;
 }
+
 /* Team Section */
 .team-section {
     margin-bottom: 60px;
 }
+
 .team-member {
     background: #fff;
     padding: 20px;
@@ -53,9 +55,11 @@ section + footer {
     transition: transform 0.3s ease;
     margin-bottom: 30px;
 }
+
 .team-member:hover {
     transform: translateY(-5px);
 }
+
 .team-member .placeholder-img {
     width: 150px;
     height: 150px;
@@ -68,10 +72,12 @@ section + footer {
     color: #777;
     margin: 0 auto 15px;
 }
+
 .team-member h5 {
     font-weight: bold;
     margin-bottom: 5px;
 }
+
 .team-member p {
     color: #777;
     margin: 0;
