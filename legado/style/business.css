@@ -8,6 +8,18 @@ body {
     background-color: #FEF7FF;
 }
 
+
+/* Footer */
+footer {
+    background: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 40px;
+}
+
 /* Navbar */
 .logo-nav {
     width: 148px;
@@ -15,14 +27,59 @@ body {
 
 .nav-link {
     color: #000 !important;
-    font-weight: 500;
+    font-weight: 500 !important;
     margin: 0 15px;
 }
 
 .nav-link.active {
     color: #6a00b3 !important;
+    border-bottom: #6a00b3 2px solid !important;
 }
 
+.nav-link:hover {
+    color: #b200ff !important;
+    border-bottom: #b200ff 2px solid !important;
+}
+
+/* Main Content */
+.main-logo {
+    max-width: 189px;
+    margin-top: 4rem;
+}
+
+.connecting-text img {
+    max-width: 600px;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.lead-text {
+    max-width: 300px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 8rem;
+}
+
+.text-DiscoverLocation {
+    position: relative;
+    left: -210%;
+}
+
+.login-link {
+    border-radius: 12px;
+    font-size: 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: all 0.3s;
+    box-shadow: inset 0 0 0 2px var(--primary-color) !important;
+    border: none;
+}
+
+.login-link:hover {
+    border: none !important;
+    transform: translateY(-2px);
+}
 
 .btn-purple-style {
     background-color: var(--primary-color);
@@ -45,11 +102,11 @@ body {
     .main-logo {
         margin-top: 2rem;
     }
-    
+
     .connecting-text img {
         max-width: 400px;
     }
-    
+
     .lead-text {
         font-size: 1rem;
         padding: 0 1rem;
@@ -60,15 +117,14 @@ body {
     .logo-nav {
         width: 120px;
     }
-    
+
     .nav-link {
         margin: 5px 0;
         text-align: center;
     }
-    
+
     .btn-purple-style {
         display: block;
         margin: 10px auto;
     }
-
 }
