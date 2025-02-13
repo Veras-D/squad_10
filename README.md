@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/99abfbc8-033d-4fc0-8b64-f1264ee738a8/deploy-status)](https://app.netlify.com/sites/rainbow-talents/deploys)
+
 <p align="center">
     <img src="./assets/favicon_.svg" alt="Globe Icon" width="100" height="100">
 </p>
