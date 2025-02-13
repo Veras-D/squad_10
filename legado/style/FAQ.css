@@ -1,9 +1,23 @@
+:root {
+    --primary-color: #4F378A;
+    --secondary-color: #A17BFF;
+    --accent-color: #B200FF;
+}
+
 body {
     background: #f9f9fb;
     font-family: "Poppins", sans-serif;
     color: #333;
     padding: 20px;
 }
+
+.nav-link {
+    color: #000 !important;
+    font-weight: 500;
+    font-family: var(--bs-body-font-family) !important;
+    margin: 0 15px;
+}
+
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -60,7 +74,115 @@ h2 {
 .btn-custom:hover {
     background-color: #4a148c;
 }
+
+.btn-purple-style {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-purple-style:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
 /* Headings */
 .text-secondary {
     color: #555 !important;
+}
+
+  /* Footer */
+  footer {
+    background: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 40px;
+  }
+
+/* Navbar */
+.logo-nav {
+    width: 148px;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-weight: 500;
+    font-family: var(--bs-body-font-family) !important;
+    margin: 0 15px;
+}
+
+.nav-link.active {
+    color: #6a00b3 !important;
+}
+
+/* Main Content */
+.main-logo {
+    max-width: 189px;
+    margin-top: 4rem;
+}
+
+.connecting-text img {
+    max-width: 600px;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.lead-text {
+    color: #444;
+    font-size: 1.25rem;
+    max-width: 500px;
+    margin: 0 auto 2rem;
+}
+
+.btn-purple-style {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-purple-style:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .main-logo {
+        margin-top: 2rem;
+    }
+    
+    .connecting-text img {
+        max-width: 400px;
+    }
+    
+    .lead-text {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-nav {
+        width: 120px;
+    }
+    
+    .nav-link {
+        margin: 5px 0;
+        text-align: center;
+    }
+    
+    .btn-purple-style {
+        display: block;
+        margin: 10px auto;
+    }
 }
