@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/99abfbc8-033d-4fc0-8b64-f1264ee738a8/deploy-status)](https://app.netlify.com/sites/rainbow-talents/deploys)
+
 <p align="center">
     <img src="./assets/favicon_.svg" alt="Globe Icon" width="100" height="100">
 </p>
@@ -60,7 +62,7 @@ Utilizaremos o **Trello** para o gerenciamento das atividades.
     <tbody>
         <tr>
             <td><img src="" alt="Desktop Version"></td>
-            <td><img src="" alt="Mobile Version"></td>
+            <td><img src="https://github.com/user-attachments/assets/f828606a-740b-4f87-86af-ee097d719148" alt="Mobile Version"></td>
         </tr>
     </tbody>
 </table>
