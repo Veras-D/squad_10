@@ -26,6 +26,8 @@
 - Layout update of: Home, About Up, FAQ, Business, 404 error, login and sign up pages
 - Change Host to Netlify
 
+---
+
 ## [1.1.1] - 2025-02-09
 ### 🛠️ Alterado
 - Finalizado layout da pagina profile
