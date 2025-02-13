@@ -60,7 +60,7 @@ Utilizaremos o **Trello** para o gerenciamento das atividades.
     <tbody>
         <tr>
             <td><img src="" alt="Desktop Version"></td>
-            <td><img src="" alt="Mobile Version"></td>
+            <td><img src="https://github.com/user-attachments/assets/f828606a-740b-4f87-86af-ee097d719148" alt="Mobile Version"></td>
         </tr>
     </tbody>
 </table>
