@@ -41,7 +41,7 @@ body {
     max-width: 300px;
     font-weight: bold;
     margin: 0 auto 2rem;
-    text-align: start !important;
+    text-align: center;
     font-size: 18px;
 }
 
@@ -137,8 +137,9 @@ body {
     .lead-text {
         color: #444;
         font-size: 1.25rem;
-        max-width: 500px;
-        font-weight:normal;
+        max-width: 300px;
+        font-weight:bold;
         margin: 0 auto 2rem;
+        font-size: 16px;
     }
 }
