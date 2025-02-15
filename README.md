@@ -160,6 +160,14 @@ Utilizamos Git para versionar o projeto, com commits organizados e publicados em
 -   **Banco de Dados:** BRModelo | MySQL
 -   **Ferramentas de Gerenciamento:** Discord, Trello, Git, GitHub e Netlify
 
+## Equipe
+|||||||
+|---|---|---|---|---|---| 
+|<img src="https://github.com/veras-d.png" width="120"><br>**Vivi Veras**<br>(Líder)<br>[@veras-d](https://github.com/veras-d) | <img src="https://cdn.discordapp.com/attachments/1329898301327151137/1340165528085332092/unnamed.jpg?ex=67b15de8&is=67b00c68&hm=7b700cebeb39ea6c60ac06a9af9279fe465a33cb5d04c2d3a00867952fbb5f9d&" width="120"><br>**Igor Yonezawa**<br>(Vice-Líder)<br>[@igoryonezawa](https://github.com/igoryonezawa) | <img src="https://avatars.githubusercontent.com/u/124143933?v=4" width="120"><br>**Fabio Duarte**<br>[@fabioduarte](https://github.com/fabioduarte) | <img src="https://cdn.discordapp.com/attachments/1329898301327151137/1340165024731103315/8orgid5bce895f-45ac-4b52-9754-8a1bcc2858f3.png?ex=67b15d70&is=67b00bf0&hm=c1994397352633d7e9609ee6618b19fce44cf9cc9282eab11c30f4aa6102e7fd&" width="120"><br>**Fabiana Cristina**<br>[@fabianacristina](https://github.com/fabianacristina) | <img src="https://github.com/joao-wess.png" width="120"><br>**Joao Vitor**<br>[@joao-wess](https://github.com/joao-wess) | <img src="https://github.com/kjunior09.png" width="120"><br>**Carlos Roberto**<br>[@kjunior09](https://github.com/kjunior09) |
+
+
+
+
 ## Link do Projeto
 
 [Link para o site](https://rainbow-talents.netlify.app/)
