@@ -8,7 +8,7 @@
 
 ## Nº do Squad
 
-10
+**10**
 
 ### Integrantes do Squad
 
@@ -188,4 +188,4 @@ Utilizamos Git para versionar o projeto, com commits organizados e publicados em
 
 ## Link do Projeto
 
-[Link para o site](https://rainbow-talents.netlify.app/)
+> [Link para o site](https://rainbow-talents.netlify.app/)
