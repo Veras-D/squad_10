@@ -10,14 +10,39 @@
 
 10
 
-## Integrantes do Squad
+### Integrantes do Squad
 
--   **Vivi Veras** (Líder)
--   **Igor Yonezawa** (Vice-Líder)
--   **Fabio Duarte**
--   **Fabiana Cristina**
--   **Joao Vitor**
--   **Carlos Roberto**
+<table border="1">
+    <tr>
+        <th>Vivi Veras</th>
+        <th>Igor Yonezawa</th>
+        <th>Fabio Duarte</th>
+        <th>Joao Vitor</th>
+        <th>Fabiana Cristina</th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/veras-d.png" width="120"></td>
+        <td><img src="https://github.com/user-attachments/assets/d9b6eb93-c317-4dd3-9ad5-f7d71cc8cb97" width="120"></td>
+        <td><img src="https://avatars.githubusercontent.com/u/124143933?v=4" width="120"></td>
+        <td><img src="https://github.com/joao-wess.png" width="120"></td>
+        <td><img src="https://github.com/user-attachments/assets/086fd3b2-0540-4f3e-83c5-7c395019d679" width="120"></td>
+    </tr>
+    <tr>
+        <th>Lider</th>
+        <th>Vice-Lider</th>
+        <th>Full-Stack</th>
+        <th>Full-Stack</th>
+        <th>Full-Stack</th>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/veras-d">@veras-d</a></td>
+        <td align="center"><a href="https://github.com/igoryonezawa">@igoryonezawa</a></td>
+        <td align="center"><a href="https://github.com/fabioduarte">@fabioduarte</a></td>
+        <td align="center"><a href="https://github.com/joao-wess">@joao-wess</a></td>
+        <td align="center"><a href="https://github.com/fabianacristina">@fabianacristina</a></td>
+    </tr>
+</table>
+
 
 ## Desafio Escolhido
 
@@ -159,13 +184,6 @@ Utilizamos Git para versionar o projeto, com commits organizados e publicados em
 -   **Back-end:** Node | Spring
 -   **Banco de Dados:** BRModelo | MySQL
 -   **Ferramentas de Gerenciamento:** Discord, Trello, Git, GitHub e Netlify
-
-## Equipe
-|<img src="https://github.com/veras-d.png" width="120"><br>**Vivi Veras**<br>(Líder)<br>[@veras-d](https://github.com/veras-d) | <img src="https://cdn.discordapp.com/attachments/1329898301327151137/1340165528085332092/unnamed.jpg?ex=67b15de8&is=67b00c68&hm=7b700cebeb39ea6c60ac06a9af9279fe465a33cb5d04c2d3a00867952fbb5f9d&" width="120"><br>**Igor Yonezawa**<br>(Vice-Líder)<br>[@igoryonezawa](https://github.com/igoryonezawa) | <img src="https://avatars.githubusercontent.com/u/124143933?v=4" width="120"><br>**Fabio Duarte**<br> <br>[@fabioduarte](https://github.com/fabioduarte) | <img src="https://cdn.discordapp.com/attachments/1329898301327151137/1340165024731103315/8orgid5bce895f-45ac-4b52-9754-8a1bcc2858f3.png?ex=67b15d70&is=67b00bf0&hm=c1994397352633d7e9609ee6618b19fce44cf9cc9282eab11c30f4aa6102e7fd&" width="120"><br>**Fabiana Cristina**<br> <br>[@fabianacristina](https://github.com/fabianacristina) | <img src="https://github.com/joao-wess.png" width="120"><br>**Joao Vitor**<br> <br>[@joao-wess](https://github.com/joao-wess) | <img src="https://github.com/kjunior09.png" width="120"><br>**Carlos Roberto**<br> <br>[@kjunior09](https://github.com/kjunior09) |
-|---|---|---|---|---|---| 
-
-
-
 
 
 ## Link do Projeto
