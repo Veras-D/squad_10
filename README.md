@@ -8,16 +8,41 @@
 
 ## Nº do Squad
 
-10
+**10**
 
-## Integrantes do Squad
+### Integrantes do Squad
 
--   **Vivi Veras** (Líder)
--   **Igor Yonezawa** (Vice-Líder)
--   **Fabio Duarte**
--   **Fabiana Cristina**
--   **Joao Vitor**
--   **Carlos Roberto**
+<table border="1" align="center">
+    <tr>
+        <th>Vivi Veras</th>
+        <th>Igor Yonezawa</th>
+        <th>Fabio Duarte</th>
+        <th>Joao Vitor</th>
+        <th>Fabiana Cristina</th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/veras-d.png" width="120"></td>
+        <td><img src="https://github.com/user-attachments/assets/d9b6eb93-c317-4dd3-9ad5-f7d71cc8cb97" width="120"></td>
+        <td><img src="https://avatars.githubusercontent.com/u/124143933?v=4" width="120"></td>
+        <td><img src="https://github.com/joao-wess.png" width="120"></td>
+        <td><img src="https://github.com/user-attachments/assets/086fd3b2-0540-4f3e-83c5-7c395019d679" width="120"></td>
+    </tr>
+    <tr>
+        <th>Lider</th>
+        <th>Vice-Lider</th>
+        <th>Full-Stack</th>
+        <th>Full-Stack</th>
+        <th>Full-Stack</th>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/veras-d">@veras-d</a></td>
+        <td align="center"><a href="https://github.com/igoryonezawa">@igoryonezawa</a></td>
+        <td align="center"><a href="https://github.com/fabioduarte">@fabioduarte</a></td>
+        <td align="center"><a href="https://github.com/joao-wess">@joao-wess</a></td>
+        <td align="center"><a href="https://github.com/fabianacristina">@fabianacristina</a></td>
+    </tr>
+</table>
+
 
 ## Desafio Escolhido
 
@@ -160,6 +185,7 @@ Utilizamos Git para versionar o projeto, com commits organizados e publicados em
 -   **Banco de Dados:** BRModelo | MySQL
 -   **Ferramentas de Gerenciamento:** Discord, Trello, Git, GitHub e Netlify
 
+
 ## Link do Projeto
 
-[Link para o site](https://rainbow-talents.netlify.app/)
+> [Link para o site](https://rainbow-talents.netlify.app/)
