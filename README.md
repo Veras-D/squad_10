@@ -12,7 +12,7 @@
 
 ### Integrantes do Squad
 
-<table border="1">
+<table border="1" align="center">
     <tr>
         <th>Vivi Veras</th>
         <th>Igor Yonezawa</th>
