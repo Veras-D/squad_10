@@ -35,7 +35,7 @@
         <th>Full-Stack</th>
     </tr>
     <tr>
-        <td align="center"><a href="https://github.com/veras-d">@veras-d</a></td>
+        <td align="center"><a href="https://linkpop.com/verasd">@veras-d</a></td>
         <td align="center"><a href="https://github.com/igoryonezawa">@igoryonezawa</a></td>
         <td align="center"><a href="https://github.com/fabioduarte">@fabioduarte</a></td>
         <td align="center"><a href="https://github.com/joao-wess">@joao-wess</a></td>
